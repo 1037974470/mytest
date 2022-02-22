@@ -68,6 +68,46 @@
         <li>分类列表58</li>
         <li>分类列表59</li>
         <li>分类列表60</li>
+        <li>分类列表61</li>
+        <li>分类列表62</li>
+        <li>分类列表63</li>
+        <li>分类列表64</li>
+        <li>分类列表65</li>
+        <li>分类列表66</li>
+        <li>分类列表67</li>
+        <li>分类列表68</li>
+        <li>分类列表69</li>
+        <li>分类列表70</li>
+        <li>分类列表71</li>
+        <li>分类列表72</li>
+        <li>分类列表73</li>
+        <li>分类列表74</li>
+        <li>分类列表75</li>
+        <li>分类列表76</li>
+        <li>分类列表77</li>
+        <li>分类列表78</li>
+        <li>分类列表79</li>
+        <li>分类列表80</li>
+        <li>分类列表81</li>
+        <li>分类列表82</li>
+        <li>分类列表83</li>
+        <li>分类列表84</li>
+        <li>分类列表85</li>
+        <li>分类列表86</li>
+        <li>分类列表87</li>
+        <li>分类列表88</li>
+        <li>分类列表89</li>
+        <li>分类列表90</li>
+        <li>分类列表91</li>
+        <li>分类列表92</li>
+        <li>分类列表93</li>
+        <li>分类列表94</li>
+        <li>分类列表95</li>
+        <li>分类列表96</li>
+        <li>分类列表97</li>
+        <li>分类列表98</li>
+        <li>分类列表99</li>
+        <li>分类列表100</li>
       </ul>
     </div>
   </div>
@@ -85,17 +125,13 @@
     },
     // 组件创建完后调用
     mounted() {
-      //这里this.refs.aaaa表示div.wrapper
       this.scroll = new BScroll(this.$refs.aaaa, {
         // probeType: 3,
-
         // pullUpLoad: true
-
       })
 
       this.scroll.on('scroll', (position) => {
         console.log(position);
-
       })
 
       this.scroll.on('pullingUp', () => {
